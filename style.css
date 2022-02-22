@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    margin: 50px;
+}
+.container{
+    width: 450px;
+    
+    margin: 100px auto 0px;
+
+}
+.container h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: block;
+    padding: 10px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    font-style: bold;
+}
+.container table{
+    background-color: darkgrey;
+    display: block;
+    border: 1px; solid: #000;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.container table:last-child{
+    background-color: darkseagreen;
+}
